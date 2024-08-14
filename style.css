@@ -1,0 +1,172 @@
+
+body {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #000000;
+      }
+header {
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url(Assets/PK-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_4d951114-b858-42cf-9ed4-fb06ad9ee502_large\ \(1\).jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    border-bottom: 9px solid #232323;
+    margin-bottom: -10px;
+}
+/* NAVBAR */
+.navbar img{
+    width: 13%;
+}
+.red-btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+}
+.red-btn:hover {
+    background-color: #e50914;
+}
+/* HERO SECTION */
+section{
+    margin-top: 150px;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.hero-first-p {
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+.hero-second-p {
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 1.875rem;
+}
+form{
+    width: 60%;
+}
+form #floatingInput {
+    color: #fff;
+}
+form .form-control:focus{
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+form .form-floating>.form-control:focus~label{
+    color: rgba(255, 255, 255, 0.7);
+}
+form .form-floating>.form-control:focus~label::after{
+    background-color: transparent;
+}
+.form-floating {
+    width: 35%;
+}
+form #floatingInput{
+    background-color: transparent;
+}
+form label{
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+.get-started-btn {
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.get-started-btn::after{
+    content: "\276F";
+    margin-left: 5px;
+}
+/* ENJOY SECTION */
+.enjoy-sec-main{
+    background-color: #000000;
+    height: 65vh;
+    background-color: 9px solid #232323;
+}
+.enjoy-sec-1 h2{
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #fff;  
+}
+.enjoy-sec-1 p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.enjoy-sec-2 img{
+    width: 75%;
+    position: relative;
+    left: 42px;
+    top: 10px;    
+}
+/* DOWNLOAD SECTION */
+.download-sec-main{
+    background-color: #000000;
+    height: 66vh;
+    border-top: 9px solid #232323;
+}
+.download-sec-1 h2{
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #fff;  
+}
+.download-sec-1 p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.download-sec-2 img{
+    width: 100%;
+    position: relative;
+    top: 10px;    
+}
+/* KIDS SECTION */
+.kids-sec-main{
+    background-color: #000000;
+    height: 65vh;
+    border-top: 9px solid #232323;
+    margin-top: 10px;
+}
+.kids-sec-1 h2{
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #fff;  
+}
+.kids-sec-1 p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.kids-sec-2 img{
+    width: 100%;
+    position: relative;
+    top: 10px;    
+}
+.email-second-p {
+    padding-top: 20px;
+    margin-top: 90px;
+    font-size: 1.8rem;
+}
+footer{
+    border-top: 9px solid #232323;
+    padding-top: 50px;
+}
+footer ul li{
+    color: rgba(255, 255, 255, 0.7);
+    list-style: none;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    line-height: 42px;
+    
+}
